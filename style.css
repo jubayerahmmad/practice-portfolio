@@ -1,0 +1,256 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    
+}
+
+/* common-styles */
+.btn{
+    background-color: #fc7a1dc7;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight:500;
+    color: white;
+}
+.btn:hover{
+    background-color: #fd6b03;
+    cursor: pointer;
+}
+.bg{
+    background-color: #FFF8F3;
+}
+
+main{
+    margin:130px 320px;
+}
+
+/* nav styles */
+.header{
+    
+    height: 830px;
+    background-image: url(./images/developer.png), url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left, bottom right;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+}
+.nav-title{
+    font-size: 45px;
+    margin-top: 40px;
+}
+.nav-title-name{
+    color: #FD6E0A;
+}
+ul li  {
+   list-style: none;
+   margin-top: 40px;
+   
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-description{
+    margin-left: 200px;
+    line-height: 80px;
+}
+.header-content-title{
+   font-size: 40px;
+}
+.header-content-name{
+    color: #FD6E0A;
+    font-size: 85px;
+    font-weight: 700;
+}
+.header-content-subtitle{
+    font-size: 35px;
+}
+.header-content-job{
+    font-size: 50px; 
+    color: #140a03c9;   
+}
+.header-content-social{
+    font-size: 36px;
+    margin-top: 20px;
+    gap: 30px;
+}
+.header-content-social a:hover{
+    color: #fd6f0ac9;
+    cursor: pointer;
+}
+.header-image{
+    margin-top: 52px;
+}
+
+/* about style */
+.about-me{
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+}
+.about-content{
+    background-color: rgba(255, 255, 255, 0.74);
+    padding: 40px;
+    margin: 130px 155px;
+    border-radius: 8px;
+}
+.about-title{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.about-desc{
+    font-size: 18px;
+    color: #757575;
+    margin-top: 50px;
+}
+.about-names{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+/* skills styles */
+
+.skills{
+    text-align: center;
+    
+}
+.skills-title{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.skills-desc{
+    font-size: 18px;
+    color: #757575;
+    margin-top: 50px;
+}
+.my-skills{
+    display: flex;
+    gap: 50px;
+}
+.skills-card{
+    width: 280px;
+    height: 370px;
+    margin-top: 30px;
+    text-align: left;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.068);
+}
+.skills-card:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+    cursor: pointer;
+    transition: .8s;
+}
+.skills-card > h1, p{
+    margin-top: 20px;
+    line-height: 35px;
+}
+.skills-card > h1{
+    font-size: 25px;
+}
+
+/* resume styles */
+
+.resume{
+    text-align: center;
+}
+
+.resume-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.my-resume-container{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    gap: 50px;
+}
+.my-education{
+    width: 50%;
+    text-align: left;
+}
+
+.my-education-title{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+.my-experience-title{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+.resume-content{
+    margin-top: 20px;
+}
+.resume-content h2{
+    opacity: .85;
+    margin-top: 15px;
+}
+.resume-content h4{
+    opacity: .5;
+    margin-top: 15px;
+}
+.my-experience{
+    width: 50%;
+    text-align: left;
+}
+.resume-btn{
+    margin-top: 50px;
+}
+
+/* footer style */
+
+.footer-container{
+    width: 1900px;
+    height: 680px;
+    display: flex;
+}
+.contact{
+    width: 50%;
+    margin: 200px;
+}
+.social-icons {
+    color: #FD6E0A;
+    font-size: 36px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.message-me{
+    width: 50%;
+    margin-top: 200px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    padding: 18px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 500px;
+    margin-top: 20px;
+}
